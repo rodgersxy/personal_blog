@@ -88,18 +88,17 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
 
-# DATABASES = {
-    
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'mysite',
-#         'USER': 'postgres',
-#         'PASSWORD': '28411846',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
 
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'mysite',
+        'USER': 'blog',
+        'PASSWORD': 'Password123#@!',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
 
 
 # Password validation
