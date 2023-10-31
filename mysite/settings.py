@@ -27,7 +27,9 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1', 'localhost']
+
+# ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -84,7 +86,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 #         'ENGINE': 'django.db.backends.sqlite3',
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #         }
-#  }
+# }
 
 
 
