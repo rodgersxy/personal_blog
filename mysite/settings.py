@@ -149,6 +149,14 @@ MEDIA_URLS ='/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'mogakaroy@gmail.com'
+EMAIL_HOST_PASSWORD = 'jyob urqj ocrg nzjk'
+EMAIL_USE_TLS = True
+#DEFAULT_FROM_EMAIL = 'your-email'
+
+
 # added
 # STATICFILES_DIRS = [BASE_DIR/'static',]
 # STATIC_ROOT = BASE_DIR/'staticfiles'
